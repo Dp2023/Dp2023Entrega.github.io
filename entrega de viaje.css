@@ -1,0 +1,104 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Estilos específicos */
+
+.recomendacion {
+    margin-bottom: 20px;
+}
+
+.recomendacion h3 {
+    margin-bottom: 10px;
+}
+
+.recomendacion img {
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.recomendacion img:hover {
+    transform: scale(1.1); /* Cambiar el tamaño de la imagen al 110% en hover */
+    transition: transform 0.3s ease; /* Agregar una transición suave */
+}
+
+button:hover {
+    cursor: pointer; /* Cambiar el cursor a una mano cuando se pasa sobre el botón */
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
